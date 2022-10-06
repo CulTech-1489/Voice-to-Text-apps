@@ -1,10 +1,10 @@
 # import io
-import os
+# import os
 from google.cloud import speech
 import streamlit as st
 
 
-os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = 'secret.json'
+# os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = 'secret.json'
 
 def file_translation(speech_file, lang='日本語'):
 
